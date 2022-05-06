@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  
+    <Authors>Jean-Philippe Lévesque</Authors>
+    <AssemblyName>CollectionTracking</AssemblyName>
+    <Description>Get the [Insert, Delete, Move, Replace] operations to apply on collection A to obtain collection B.</Description>
+    <PackageId>CollectionTracking</PackageId>
+	<PackageProjectUrl>https://github.com/jeanplevesque/CollectionTracking</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/jeanplevesque/CollectionTracking</RepositoryUrl>
+	<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+
+  </PropertyGroup>
+</Project>

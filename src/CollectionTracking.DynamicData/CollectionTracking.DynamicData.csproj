@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+	<Authors>Jean-Philippe Lévesque</Authors>
+	<AssemblyName>CollectionTracking.DynamicData</AssemblyName>
+	<Description>Convert collection operations from CollectionTracking into IChangeSet or Change from DynamicData.</Description>
+	<PackageId>CollectionTracking.DynamicData</PackageId>
+	<PackageProjectUrl>https://github.com/jeanplevesque/CollectionTracking</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/jeanplevesque/CollectionTracking</RepositoryUrl>
+	<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicData" Version="7.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CollectionTracking\CollectionTracking.csproj" />
+  </ItemGroup>
+
+</Project>
