@@ -11,6 +11,15 @@
 	<PackageProjectUrl>https://github.com/jeanplevesque/CollectionTracking</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/jeanplevesque/CollectionTracking</RepositoryUrl>
 	<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	<PackageTags>Collection;diff;delta;IEnumerable;ObservableCollection</PackageTags>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
 
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 </Project>

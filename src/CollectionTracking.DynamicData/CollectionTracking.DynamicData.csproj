@@ -11,7 +11,16 @@
 	<PackageProjectUrl>https://github.com/jeanplevesque/CollectionTracking</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/jeanplevesque/CollectionTracking</RepositoryUrl>
 	<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<PackageTags>Collection;diff;delta;IEnumerable;ObservableCollection;DynamicData</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="DynamicData" Version="7.7.1" />
