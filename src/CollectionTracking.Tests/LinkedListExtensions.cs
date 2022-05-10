@@ -10,7 +10,7 @@ namespace CollectionTracking.Tests
 	{
 		public static int LastIndexOf<T>(this LinkedList<T> linkedList, T item, IEqualityComparer<T>? comparer = null)
 		{
-			comparer = comparer ?? EqualityComparer<T>.Default;
+			comparer ??= EqualityComparer<T>.Default;
 
 			var node = linkedList.Last;
 			for (int i = linkedList.Count - 1; i >= 0; --i)
@@ -29,7 +29,7 @@ namespace CollectionTracking.Tests
 		/// </summary>
 		public static int IndexOfFromTheEnd<T>(this LinkedList<T> linkedList, T item, IEqualityComparer<T>? comparer = null)
 		{
-			comparer = comparer ?? EqualityComparer<T>.Default;
+			comparer ??= EqualityComparer<T>.Default;
 
 			var node = linkedList.Last;
 			for (int i = 0; i < linkedList.Count; i++)
