@@ -1,5 +1,7 @@
 # CollectionTracking
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](LICENSE) ![Version](https://img.shields.io/nuget/v/CollectionTracking?style=flat-square) ![Downloads](https://img.shields.io/nuget/dt/CollectionTracking?style=flat-square)
+
 ## Goal
 This package was developed to interpret a series of immutable lists (from a business layer) as one mutable lists (in a presentation layer).
 In other words, convert `IObservable<IEnumerable<T>>` to `ObservableCollection<T>`.
